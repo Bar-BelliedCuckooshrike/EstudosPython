@@ -46,3 +46,6 @@ print(cidades)
 #F = 9/5 * c + 32:
 celcius_to_F = lambda dado: (dado[0], (9/5) * dado[1] + 32)
 print(list(map(celcius_to_F, cidades)))
+
+
+#O MAP é simples, basta colocar a função e o iterável.
